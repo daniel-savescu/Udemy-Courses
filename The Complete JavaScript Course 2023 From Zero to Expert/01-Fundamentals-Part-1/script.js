@@ -110,3 +110,79 @@ console.log(country);
 console.log(population);
 
 */
+
+/* Basic Operators
+
+
+//Mathematical operators
+const currentYear = 2023;
+const myCurrentAge = currentYear - 1990;
+console.log(myCurrentAge);
+console.log(myCurrentAge * 2, myCurrentAge / 2);
+
+// ** exponantial operator
+console.log(2 ** 3);
+
+//string concatenation
+const firstName = "Daniel";
+const lastName = "Savescu";
+
+console.log(firstName + " " + lastName);
+
+//typeof operator
+console.log(typeof firstName);
+
+//asignment operator
+let n = 10 + 5;
+console.log(n);
+
+n += 10;
+console.log(n);
+
+n *= 4;
+console.log(n);
+
+//Increment operator and decrement operator
+n++;
+console.log(n);
+
+n--;
+console.log(n);
+
+//Comparison Operators
+console.log(10 > 9);
+
+const legalAge = 18;
+console.log(legalAge >= 18);
+
+const legal = legalAge >= 18;
+console.log(legal);
+
+console.log(currentYear - 1990 < currentYear - legalAge);
+
+//Basic operators assigment
+let population = 19120000;
+let halfOfPopulation = population / 2;
+console.log("Half of current population: " + halfOfPopulation);
+population++;
+console.log(population);
+let finlandPopulation = 6000000;
+const checkPopulation = population > finlandPopulation;
+console.log(checkPopulation);
+const averagePopulation = 33000000;
+const checkAverage = population < averagePopulation;
+const language = "romanian";
+const country = "Romania";
+const continent = "Europe";
+const description =
+  country +
+  " is in " +
+  continent +
+  " and its " +
+  population +
+  " people speak " +
+  language +
+  " language";
+console.log(description);
+
+*/
