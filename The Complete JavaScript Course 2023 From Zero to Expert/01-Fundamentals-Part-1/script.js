@@ -28,3 +28,15 @@ let job2 = "teacher";
 console.log(myFirstJob);
 
 */
+
+/* Values and Variables Asignment 
+
+let country = "Romania";
+let continet = "Europe";
+let population = 19120000;
+
+console.log(country);
+console.log(continet);
+console.log(population);
+
+*/
