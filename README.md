@@ -3,4 +3,5 @@
 <h2>Courses list</h2>
 <ul>
   <li>Build Responsive Real-World Websites with HTML and CSS</li>
+  <li>The Complete JavaScript Course 2023 From Zero to Expert</li>
 </ul>
