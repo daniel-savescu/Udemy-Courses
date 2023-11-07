@@ -186,3 +186,17 @@ const description =
 console.log(description);
 
 */
+
+/* Operator Precedence 
+
+let x, y;
+x = y = 25 - 10 - 5;
+console.log(x, y);
+
+const ageDaniel = 33;
+const ageDaniela = 60;
+
+const averageAge = (ageDaniel + ageDaniela) / 2;
+console.log(ageDaniel, ageDaniela, averageAge);
+
+*/
