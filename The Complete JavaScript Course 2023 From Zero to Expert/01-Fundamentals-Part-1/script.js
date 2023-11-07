@@ -241,3 +241,38 @@ console.log(
 );
 
 */
+
+/*Tacking Decisions : if / else Statements
+
+const age = 15;
+
+if (age >= 18) {
+  console.log("Sarah can start driving license");
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Sarah is to young. Wait another ${yearsLeft} years :)`);
+}
+
+const birthYear = 1990;
+let century;
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+console.log(century);
+
+//If else assignment
+
+let population = 19120000;
+const averagePopulation = 33000000;
+const romaniaAveragePopulatior = averagePopulation - population;
+if (population > averagePopulation) {
+  console.log("Romania population is grater then average.");
+} else {
+  console.log(
+    `Romania population is ${romaniaAveragePopulatior} milion below average.`
+  );
+}
+
+*/
