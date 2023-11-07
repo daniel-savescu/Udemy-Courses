@@ -276,3 +276,32 @@ if (population > averagePopulation) {
 }
 
 */
+
+/*Type Conversion and coercion
+
+//Type Conversion
+const inputYear = "1990";
+console.log(inputYear + 10);
+console.log(Number(inputYear) + 10);
+console.log(typeof Number(inputYear));
+console.log(typeof NaN);
+console.log(String(8), 8);
+
+//Type Coercion
+console.log("I am " + 23 + " years old.");
+console.log("23" - "10" - 3);
+console.log("23" + "10" + 3);
+
+let n = "1" + 1;
+n = n - 1;
+console.log(n);
+
+//Type conversion and type coercion assignment
+
+console.log("9" - "5");
+console.log("19" - "13" + "17");
+console.log("19" - "13" + 17);
+console.log("123" < 57);
+console.log(5 + 6 + "4" + 9 - 4 - 2);
+
+*/
