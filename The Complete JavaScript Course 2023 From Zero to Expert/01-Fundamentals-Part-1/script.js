@@ -200,3 +200,44 @@ const averageAge = (ageDaniel + ageDaniela) / 2;
 console.log(ageDaniel, ageDaniela, averageAge);
 
 */
+
+/*Strings and template literals
+
+const firstName = "Daniel";
+const job = "programmer";
+const birthYear = 1990;
+const year = 2023;
+
+const daniel =
+  "I'm " + firstName + " a " + (year - birthYear) + " years old " + job + "!";
+console.log(daniel);
+
+const danielNew = `I'm ${firstName} a ${year - birthYear} years old ${job}!`;
+console.log(danielNew);
+
+console.log(`this is a regular string using backticks`);
+
+console.log(
+  "String with \n\
+multiple\n\
+lines"
+);
+
+console.log(`String
+with multiple
+line using
+backticks`);
+
+
+//String and template literals asignment
+
+const language = "romanian";
+const country = "Romania";
+const continent = "Europe";
+let population = 19120000;
+
+console.log(
+  `${country} is in ${continent}, and its ${population} pleople speak ${language}`
+);
+
+*/
