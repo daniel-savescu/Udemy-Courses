@@ -306,7 +306,7 @@ console.log(5 + 6 + "4" + 9 - 4 - 2);
 
 */
 
-/* Falsty and Truthly Values
+/* Falsy and Truthly Values
 
 // 5 falsy values: 0, '', undefined, null, NaN
 
@@ -332,6 +332,44 @@ if (height) {
   console.log("Yey! The variable it's defined");
 } else {
   console.log("The variable is undefined");
+}
+
+*/
+
+/* Equality operators ( == , ===)
+
+const age = 18;
+if (age === 18) console.log("You just turned 18. Strict equality");
+
+const degree = 19;
+if (degree == "19") console.log("loose equality");
+
+const number = Number(prompt("Enter a number : "));
+console.log(`You entered the value ${number}`);
+if (number === 10) {
+  console.log(`You entered ${number}`);
+} else if (number == 7) {
+  console.log(`${number} is a lucky number`);
+} else {
+  console.log("Number is not 10 or 7");
+}
+
+if (number !== 10) {
+  console.log(`The number is different from 10.`);
+}
+
+//Equality Operators Assignment
+
+const numNeighbours = Number(
+  prompt("How many neighbour countries does your country have?")
+);
+
+if (numNeighbours === 1) {
+  console.log("Only 1 border!");
+} else if (numNeighbours > 1) {
+  console.log("More then 1 border");
+} else {
+  console.log("No borders");
 }
 
 */
