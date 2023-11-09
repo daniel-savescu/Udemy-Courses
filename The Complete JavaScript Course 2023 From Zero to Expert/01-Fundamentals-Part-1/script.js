@@ -461,3 +461,28 @@ switch (language) {
 }
 
 */
+
+/* Ternary Operator
+
+const age = 23;
+// age >= 18
+//   ? console.log("I like to drink wine.")
+//   : console.log("I like to drink water");
+
+const drink = age >= 18 ? "drink wine" : "drink water";
+
+console.log(drink);
+
+console.log(`I like to drink ${age >= 18 ? "wine" : "water"}`);
+
+//Ternary operator assignment
+
+const population = 19;
+
+console.log(
+  population > 33
+    ? "Romania's population is above average"
+    : "Romania's population is below average"
+);
+
+*/
