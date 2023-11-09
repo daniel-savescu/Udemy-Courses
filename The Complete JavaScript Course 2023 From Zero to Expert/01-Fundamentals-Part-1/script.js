@@ -373,3 +373,48 @@ if (numNeighbours === 1) {
 }
 
 */
+/*
+
+/* Logical Operators
+
+const hasDriversLicence = true;
+const hasGoodVision = true;
+
+console.log(hasDriversLicence && hasGoodVision);
+console.log(hasDriversLicence || hasGoodVision);
+console.log(!hasDriversLicence);
+
+// if (hasDriversLicence && hasGoodVision) {
+//   console.log("Sarah is able to drive");
+// } else {
+//   console.log("Someone else should drive");
+// }
+
+const isTired = false;
+console.log(hasDriversLicence && hasGoodVision && isTired);
+
+if (hasDriversLicence && hasGoodVision && !isTired) {
+  console.log("Sarah is able to drive");
+} else {
+  console.log("Someone else should drive");
+}
+
+
+
+//Logical operators assignment
+
+const romaniaIsIsland = false;
+const romaniaEnglishLanguage = false;
+const romaniaPopulationLessThen50Mil = true;
+
+if (
+  romaniaIsIsland &&
+  romaniaEnglishLanguage &&
+  romaniaPopulationLessThen50Mil
+) {
+  console.log("You should live in Romania!");
+} else {
+  console.log("Romania does not meet your criteria! :(");
+}
+
+*/
