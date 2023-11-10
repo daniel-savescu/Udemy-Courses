@@ -85,3 +85,26 @@ const China = percentageOfWorld2(1441);
 console.log(China);
 
 */
+
+/*Arrow functions
+
+const calculateAge = (birthYear) => 2023 - birthYear;
+const age = calculateAge(1990);
+console.log(age);
+
+const yearsUntillRetirement = (birthYear) => {
+  const age = 2023 - birthYear;
+  const retirement = 65 - age;
+  return retirement;
+};
+
+console.log(yearsUntillRetirement(1990));
+
+//Arrow function assignment
+
+const percentageOfWorld3 = (population) => (population / 7900) * 100;
+
+const China = percentageOfWorld3(1441);
+console.log(China);
+
+*/
