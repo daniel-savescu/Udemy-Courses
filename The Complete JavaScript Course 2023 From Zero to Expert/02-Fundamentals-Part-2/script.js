@@ -225,3 +225,57 @@ const percentages = [
 console.log(percentages[0], percentages[1], percentages[2], percentages[3]);
 
 */
+
+/* Arrays Methods
+
+const sodas = ["Coca-Cola", "Fanta", "Sprite"];
+
+//Add elements (push for the end of the array)
+const newLength = sodas.push("Pepesi"); //Is returs the new array length
+console.log(sodas);
+console.log(newLength);
+
+//Add elements to the front of the array
+sodas.unshift("Mirinda");
+console.log(sodas);
+
+//Remove elements from end of the array
+sodas.pop();
+console.log(sodas);
+const poppedElement = sodas.pop(); //Returs the value of the removed element
+console.log(poppedElement);
+
+//Remove the elements from the front of the array
+sodas.shift();
+console.log(sodas);
+
+//Returs the index of an element
+console.log(sodas.indexOf("Coca-Cola"));
+
+//Returns -1 if the element does not exists
+console.log(sodas.indexOf("Pop-Cola"));
+
+//Returns true if the array includes the element and false if NOT
+console.log(sodas.includes("Coca-Cola"));
+console.log(sodas.includes("Pop-Cola"));
+
+if (sodas.includes("Coca-Cola")) {
+  console.log("The most consumed soda!");
+}
+
+//Arrays functions assignment
+
+const neighbours = ["Moldova", "Hungary", "Ukraine", "Bulgary"];
+neighbours.push("Utopia");
+neighbours.pop();
+
+if (neighbours.includes("Germany")) {
+  console.log("Probably not a central European country :D");
+}
+
+const newCountry = neighbours.indexOf("Hungary");
+neighbours[newCountry] = "France";
+
+console.log(neighbours);
+
+*/
