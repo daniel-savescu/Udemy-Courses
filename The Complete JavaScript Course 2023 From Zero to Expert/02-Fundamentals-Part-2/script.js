@@ -161,3 +161,67 @@ console.log(yearsUntillRetirement(1990, "Daniel"));
 console.log(yearsUntillRetirement(1950, "Mike"));
 
 */
+
+/* Introductions to Arrays
+
+const soda1 = "Coca-Cola";
+const soda2 = "Fanta";
+const soda3 = "Sprite";
+
+//Literal syntax
+const sodas = ["Coca-Cola", "Fanta", "Sprite"];
+console.log(sodas);
+
+console.log(sodas[0]);
+console.log(sodas.length);
+
+//Get the last element of the array
+console.log(sodas[sodas.length - 1]);
+
+//Mutate the array
+
+sodas[2] = "Pepsi";
+console.log(sodas);
+
+const daniel = ["Daniel", "Savescu", 2023 - 1990, "programmer", sodas];
+console.log(daniel);
+
+const calculateAge = function (birthYear) {
+  return 2023 - birthYear;
+};
+
+const years = new Array(1990, 1991, 1992);
+
+const firstAge = calculateAge(years[0]);
+const secondAge = calculateAge(years[1]);
+const thirdAge = calculateAge(years[years.length - 1]);
+
+console.log(firstAge, secondAge, thirdAge);
+
+const ages = [
+  calculateAge(years[0]),
+  calculateAge(years[1]),
+  calculateAge(years[years.length - 1]),
+];
+console.log(ages);
+
+//Arrays assignment
+
+const populations = [19, 6, 1441, 33];
+if (populations.length === 4) {
+  console.log(true);
+} else {
+  console.log(false);
+}
+
+const percentageOfWorld3 = (population) => (population / 7900) * 100;
+const percentages = [
+  percentageOfWorld3(populations[0]),
+  percentageOfWorld3(populations[1]),
+  percentageOfWorld3(populations[2]),
+  percentageOfWorld3(populations[3]),
+];
+
+console.log(percentages[0], percentages[1], percentages[2], percentages[3]);
+
+*/
