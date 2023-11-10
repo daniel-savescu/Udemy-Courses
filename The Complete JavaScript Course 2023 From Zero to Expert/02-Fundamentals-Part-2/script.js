@@ -108,3 +108,31 @@ const China = percentageOfWorld3(1441);
 console.log(China);
 
 */
+
+/*Fuctions calling other function
+
+function cutFruitInPieces(fruit) {
+  return fruit * 4;
+}
+
+function fruitProcessor(apples, oranges) {
+  const applePieces = cutFruitInPieces(apples);
+  const orangePieces = cutFruitInPieces(oranges);
+  const juice = `Juice with ${applePieces} pieces of apples and ${orangePieces} oranges pieces.`;
+  return juice;
+}
+
+console.log(fruitProcessor(2, 3));
+
+//Functions calling another function assignment
+
+const percentageOfWorld3 = (population) => (population / 7900) * 100;
+
+function describePopulation(country, population) {
+  const countryPrecentage = percentageOfWorld3(population);
+  return `${country} has ${population} million pleople, with is about ${countryPrecentage} of the world.`;
+}
+
+console.log(describePopulation("China", 1441));
+
+*/
