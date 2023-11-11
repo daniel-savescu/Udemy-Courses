@@ -297,7 +297,68 @@ const myCountry = {
   capital: "Bucharest",
   language: "romanian",
   population: 19000000,
-  neighbours ["Moldova", "Hungary", "Bulgary", "Ukraine"]
+  neighbours: ["Moldova", "Hungary", "Bulgary", "Ukraine"]
 };
+
+*/
+
+/* Dot and Brakets Object notation
+
+const daniel = {
+  firstName: "Daniel",
+  lastName: "Savescu",
+  age: 2023 - 1990,
+  job: "programmer",
+  friends: ["Florin", "Gabriel", "David"],
+};
+
+console.log(daniel.lastName);
+console.log(daniel["lastName"]);
+
+const nameKey = "Name";
+console.log(daniel["first" + nameKey]);
+
+// const interest = prompt(
+//   "What do you need to know about me? : firstName, lastName, age, job, friends"
+// );
+// if (daniel[interest]) {
+//   console.log(daniel[interest]);
+// } else {
+//   console.log(
+//     "Wrong request ! What do you need to know about me? : firstName, lastName, age, job, friends"
+//   );
+// }
+
+//Add items to object
+
+daniel.location = "Romania";
+daniel["GitHub"] = "github.com/daniel-savescu";
+
+console.log(daniel);
+
+//Dot and Braket Object Assignment
+const myCountry = {
+  country: "Romania",
+  capital: "Bucharest",
+  language: "romanian",
+  population: 19,
+  neighbours: ["Moldova", "Hungary", "Bulgary", "Ukraine"],
+};
+
+console.log(
+  `${myCountry.country} has ${myCountry.population} million ${myCountry.language}-speaking pleople, ${myCountry.neighbours.length} neighbours countries and a capital called ${myCountry.capital}`
+);
+
+const morePopulation = myCountry.population + 2;
+
+console.log(
+  `${myCountry.country} has ${morePopulation} million ${myCountry.language}-speaking pleople, ${myCountry.neighbours.length} neighbours countries and a capital called ${myCountry.capital}`
+);
+
+const lessPopulation = myCountry["population"] - 2;
+
+console.log(
+  `${myCountry.country} has ${lessPopulation} million ${myCountry.language}-speaking pleople, ${myCountry.neighbours.length} neighbours countries and a capital called ${myCountry.capital}`
+);
 
 */
