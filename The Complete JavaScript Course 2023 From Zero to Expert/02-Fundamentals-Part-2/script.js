@@ -279,3 +279,25 @@ neighbours[newCountry] = "France";
 console.log(neighbours);
 
 */
+
+/* Introduction to Objects
+
+const daniel = {
+  firstName: "Daniel",
+  lastName: "Savescu",
+  age: 2023 - 1990,
+  job: "programmer",
+  friends: ["Florin", "Gabriel", "David"],
+};
+
+//Object assignment
+
+const myCountry = {
+  country: "Romania",
+  capital: "Bucharest",
+  language: "romanian",
+  population: 19000000,
+  neighbours ["Moldova", "Hungary", "Bulgary", "Ukraine"]
+};
+
+*/
