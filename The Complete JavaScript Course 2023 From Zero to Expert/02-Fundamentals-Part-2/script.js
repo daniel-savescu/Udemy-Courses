@@ -362,3 +362,34 @@ console.log(
 );
 
 */
+
+const daniel = {
+  firstName: "Daniel",
+  lastName: "Savescu",
+  birthYear: 1990,
+  job: "programmer",
+  friends: ["Florin", "Gabriel", "David"],
+  hasDriversLicense: false,
+  // calculateAge: function (birthYear) {
+  //   return 2023 - birthYear;
+  // },
+  // calculateAge: function () {
+  //   return 2023 - this.birthYear;
+  // },
+  calculateAge: function () {
+    this.age = 2023 - this.birthYear;
+    return this.age;
+  },
+  summary: function () {
+    return `${this.firstName} is a ${2023 - this.birthYear} old ${
+      this.job
+    } and ${
+      this.hasDriversLicense
+        ? "has a diver's license"
+        : "does not have a drivers license"
+    }`;
+  },
+};
+console.log(daniel.calculateAge());
+console.log(daniel.age);
+console.log(daniel.summary());
