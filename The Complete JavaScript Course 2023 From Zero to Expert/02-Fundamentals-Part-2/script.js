@@ -431,3 +431,66 @@ for (let voter = 1; voter <= 50; voter++) {
 }
 
 */
+
+/*Looping arrays; Break; Continue statement assignment
+
+const danielArray = [
+  "Daniel",
+  "Savescu",
+  2023 - 1990,
+  "programmer",
+  ["Florin", "Gabriel", "David"],
+];
+
+const types = [];
+
+for (let i = 0; i < danielArray.length; i++) {
+  console.log(danielArray[i], typeof danielArray[i]);
+
+  //First way to populate the array
+  //types[i] = typeof danielArray[i];
+
+  //Using push method
+  types.push(typeof danielArray[i]);
+}
+
+for (let i = 0; i < types.length; i++) {
+  console.log(types[i]);
+}
+
+const years = [1990, 2007, 1969, 2021];
+const ages = [];
+for (let i = 0; i < years.length; i++) {
+  ages.push(2023 - years[i]);
+}
+
+for (let i = 0; i < ages.length; i++) {
+  console.log(ages[i]);
+}
+
+//Continue keyword
+for (let i = 0; i < danielArray.length; i++) {
+  if (typeof danielArray[i] !== "string") continue;
+  console.log(danielArray[i], typeof danielArray[i]);
+}
+
+//Break statement
+for (let i = 0; i < danielArray.length; i++) {
+  if (typeof danielArray[i] === "number") break;
+  console.log(danielArray[i], typeof danielArray[i]);
+}
+
+//Looping arrays; Break; Continue statement assignment
+const populations = [19, 6, 1441, 33];
+const percentageOfWorld1 = (population) => (population / 7900) * 100;
+
+const percentage2 = [];
+
+for (let i = 0; i < populations.length; i++) {
+  percentage2.push(percentageOfWorld1(populations[i]));
+}
+
+for (let i = 0; i < percentage2.length; i++) {
+  console.log(percentage2[i]);
+}
+*/
