@@ -531,3 +531,37 @@ for (let i = 0; i < listOfNeighbours.length; i++) {
 }
 
 */
+
+/*While loop
+
+let rep = 1;
+
+while (rep <= 10) {
+  console.log(`${rep} exercise`);
+  rep++;
+}
+
+// let dice = Math.trunc(Math.random() * 6) + 1;
+
+// while (dice !== 6) {
+//   console.log(`You rolled : ${dice}`);
+//   dice = Math.trunc(Math.random() * 6) + 1;
+// }
+
+
+//While loop assignment
+
+const populations = [19, 6, 1441, 33];
+const percentageOfWorld1 = (population) => (population / 7900) * 100;
+
+const percentage2 = [];
+
+let i = 0;
+while (i < populations.length) {
+  const perc = percentageOfWorld1(populations[i]);
+  percentage2.push(perc);
+  i++;
+}
+console.log(percentage2);
+
+*/
