@@ -363,6 +363,8 @@ console.log(
 
 */
 
+/* Object methods
+
 const daniel = {
   firstName: "Daniel",
   lastName: "Savescu",
@@ -393,3 +395,25 @@ const daniel = {
 console.log(daniel.calculateAge());
 console.log(daniel.age);
 console.log(daniel.summary());
+
+//Object methods assignment
+
+const myCountry = {
+  country: "Romania",
+  capital: "Bucharest",
+  language: "romanian",
+  population: 19,
+  neighbours: ["Moldova", "Hungary", "Bulgary", "Ukraine"],
+  describe: function () {
+    return `${this.country} has ${this.population} million ${this.language}-speaking people, ${this.neighbours.length} neighbours countries and a capital called ${this.capital}`;
+  },
+  checkIsland: function () {
+    this.isIsland = this.neighbours.length > 0 ? false : true;
+    return this.isIsland;
+  },
+};
+
+console.log(myCountry.describe());
+console.log(myCountry.checkIsland());
+
+*/
