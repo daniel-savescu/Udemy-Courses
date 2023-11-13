@@ -417,3 +417,17 @@ console.log(myCountry.describe());
 console.log(myCountry.checkIsland());
 
 */
+
+/* For loop
+
+for (let index = 1; index <= 10; index++) {
+  console.log(`Player ${index} has connected.`);
+}
+
+//For statement assignment
+
+for (let voter = 1; voter <= 50; voter++) {
+  console.log(`Voter number ${voter} is currently voting`);
+}
+
+*/
