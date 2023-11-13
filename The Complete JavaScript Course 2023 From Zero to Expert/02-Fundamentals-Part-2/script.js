@@ -494,3 +494,40 @@ for (let i = 0; i < percentage2.length; i++) {
   console.log(percentage2[i]);
 }
 */
+
+/* Backwards loops and loops inside loops
+
+const danielArray = [
+  "Daniel",
+  "Savescu",
+  2023 - 1990,
+  "programmer",
+  ["Florin", "Gabriel", "David"],
+];
+
+for (let i = danielArray.length - 1; i >= 0; i--) {
+  console.log(danielArray[i]);
+}
+
+for (let exercise = 1; exercise < 4; exercise++) {
+  console.log(`Starting exercise ${exercise}`);
+  for (let rep = 1; rep < 6; rep++) {
+    console.log(`Repeating exercise ${rep}`);
+  }
+}
+
+//Backwards loops and loops inside loops assignment
+
+const listOfNeighbours = [
+  ["Canada", "Mexico"],
+  ["Spain"],
+  ["Norway", "Sweden", "Russia"],
+];
+
+for (let i = 0; i < listOfNeighbours.length; i++) {
+  for (let y = 0; y < listOfNeighbours[i].length; y++) {
+    console.log(`Neighbour: ${listOfNeighbours[i][y]}`);
+  }
+}
+
+*/
