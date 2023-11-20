@@ -122,3 +122,49 @@ elena.calcAge = daniel.calcAge;
 elena.calcAge();
 
 */
+
+/*Regular function vs Arrow function
+
+var firstName = 'Matilda';
+
+const daniel = {
+  firstName: 'Daniel',
+  year: 1990,
+  calcAge: function () {
+    console.log(this);
+    console.log(2023 - this.year);
+
+    //Solution 1
+    // const self = this; //self or that
+    // const isMillenial = function () {
+    //   console.log(self);
+    //   console.log(self.year >= 1981 && self.year <= 1996);
+    // };
+
+    //Solution 2
+    const isMillenial = () => {
+      console.log(this);
+      console.log(this.year >= 1981 && this.year <= 1996);
+    };
+    isMillenial();
+  },
+
+  greet: () => {
+    console.log(this);
+    console.log(`Hey ${this.firstName}`);
+  },
+};
+
+daniel.greet();
+daniel.calcAge();
+
+//arguments keyword works in anonimous functions and regular functions
+//but not in arrow functions
+
+const addExpr = function (a, b) {
+  console.log(arguments);
+  return a + b;
+};
+addExpr(2, 3, 4, 5);
+
+*/
