@@ -38,3 +38,50 @@ const firstName = 'Daniel';
 calcAge(1990);
 
 */
+
+/*Hoisting and Temporal Dead Zone (TDZ)
+
+//Variable hoisting
+console.log(me);
+// console.log(job);
+// console.log(year);
+
+var me = 'Daniel';
+let job = 'programmer';
+const year = 1990;
+
+//Functions
+
+// console.log(addDecl(2, 3));
+// console.log(addExpr(2, 3));
+// console.log(addArrow(2, 3));
+
+// function addDecl(a, b) {
+//   return a + b;
+// }
+
+// const addExpr = function (a, b) {
+//   return a + b;
+// };
+
+// const addArrow = (a, b) => a + b;
+
+//Example
+
+if (!numProducts) deleteShoppingCart();
+
+var numProducts = 10;
+
+function deleteShoppingCart() {
+  console.log('All product deleted');
+}
+
+var x = 1;
+let y = 2;
+const z = 3;
+
+console.log(x === window.x);
+console.log(x === window.y);
+console.log(x === window.z);
+
+*/
