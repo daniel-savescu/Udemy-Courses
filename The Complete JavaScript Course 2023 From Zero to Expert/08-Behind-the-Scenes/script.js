@@ -168,3 +168,42 @@ const addExpr = function (a, b) {
 addExpr(2, 3, 4, 5);
 
 */
+
+//Primitive type
+let lastName = 'Williams';
+let oldLastName = lastName;
+lastName = 'Davis';
+console.log(lastName, oldLastName);
+
+//Reference types
+const jessica = {
+  fistName: 'Jessica',
+  lastName: 'William',
+  age: 30,
+};
+
+const marriedJessica = jessica;
+marriedJessica.lastName = 'Davis';
+
+console.log('Before marriage : ', jessica);
+console.log('After marriage: ', marriedJessica);
+
+//Copying objects
+const jessica2 = {
+  fistName: 'Jessica',
+  lastName: 'William',
+  age: 30,
+  family: ['Alice', 'Bob'],
+};
+
+//Object assign is just a shallow copy of the object
+const jessicaCopy = Object.assign({}, { jessica2 });
+jessicaCopy.lastName = 'Davis';
+console.log('Before marriage : ', jessica2);
+console.log('After marriage: ', jessicaCopy);
+
+jessicaCopy.family.push('Mary');
+jessicaCopy.family.push('John');
+
+console.log('Before marriage : ', jessica2);
+console.log('After marriage: ', jessicaCopy);
