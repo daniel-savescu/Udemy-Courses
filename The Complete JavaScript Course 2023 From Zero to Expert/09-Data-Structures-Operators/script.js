@@ -45,6 +45,32 @@ const restaurant = {
   },
 };
 
+/*Sets
+
+const orderSet = new Set(['Pasta', 'Pizza', 'Pizza', 'Risotto']);
+console.log(orderSet);
+console.log(new Set('Daniel'));
+console.log(orderSet.size);
+console.log(orderSet.has('Pizza'));
+console.log(orderSet.has('Bread'));
+orderSet.add('Garlic Bread');
+orderSet.delete('Risotto');
+console.log(orderSet);
+
+for (const item of orderSet) {
+  console.log(item);
+}
+
+const staff = ['Waiter', 'Chef', 'Waiter', 'Manager', 'Chef', 'Wainter'];
+const uniqueStaff = [...new Set(staff)];
+console.log(uniqueStaff);
+console.log(
+  new Set(['Waiter', 'Chef', 'Waiter', 'Manager', 'Chef', 'Wainter']).size
+);
+console.log(new Set('Daniel').size);
+
+*/
+
 /*Loop Objects : Key, Value, Entries
 
 //Property Names
