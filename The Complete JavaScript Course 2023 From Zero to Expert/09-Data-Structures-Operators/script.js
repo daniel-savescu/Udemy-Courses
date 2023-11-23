@@ -45,6 +45,34 @@ const restaurant = {
   },
 };
 
+/* Maps : Fundamentals
+
+const rest = new Map();
+rest.set('name', 'Classico Italiano');
+rest.set(1, 'Firenze, Italy');
+rest.set(2, 'Lisbon, Portugal');
+console.log(rest);
+
+rest
+  .set('categories', ['Italian', 'Pizzeria', 'Vegetarian', 'Organic'])
+  .set('open', 11)
+  .set('close', 23);
+
+console.log(rest);
+console.log(rest.get('name'));
+
+console.log(rest.has('name'));
+rest.delete(2);
+console.log(rest);
+console.log(rest.size);
+const arr = [1, 2];
+rest.set(arr, 'Test');
+rest.set(document.querySelector('h1'), 'Heading');
+console.log(rest);
+console.log(rest.get(arr));
+
+*/
+
 /*Sets
 
 const orderSet = new Set(['Pasta', 'Pizza', 'Pizza', 'Risotto']);
