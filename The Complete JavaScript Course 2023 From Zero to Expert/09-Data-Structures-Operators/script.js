@@ -45,6 +45,68 @@ const restaurant = {
   },
 };
 
+/* Woking with String part 2
+
+const airline = 'TAP Air Portugal';
+console.log(airline.toLocaleLowerCase());
+console.log(airline.toUpperCase());
+console.log('Daniel'.toUpperCase());
+
+//Fix capitalization in name
+
+const passenger = 'dAniEL';
+const passengerLower = passenger.toLowerCase();
+const passengerCorrent =
+  passengerLower[0].toUpperCase() + passengerLower.slice(1);
+console.log(passengerCorrent);
+
+//Comparing email
+
+const email = 'hello@yahoo.com';
+const loginEmail = '  Hello@Yahoo.com \n';
+
+const normalEmail = loginEmail.toLowerCase().trim();
+
+console.log(normalEmail);
+
+console.log(email === normalEmail);
+
+//replacing
+const priceGB = '288,97';
+const priceUS = priceGB.replace(',', '.');
+console.log(priceUS);
+
+const announcement =
+  'All passengers come to boarding door 23. Boarding door 23!';
+
+console.log(announcement.replace(/door/g, 'gate'));
+
+//Booleans
+
+const plane = 'Airbus A320neo';
+console.log(plane.includes('A320'));
+console.log(plane.includes('Boeing'));
+console.log(plane.startsWith('Air'));
+
+if (plane.startsWith('Airbus') && plane.endsWith('neo')) {
+  console.log('Part of the NEW Airbus family');
+}
+
+const checkBaggage = function (items) {
+  const baggage = items.toLowerCase();
+  if (baggage.includes('knife') || baggage.includes('gun')) {
+    console.log('You are NOT allowed on board');
+  } else {
+    console.log('Welcome aboard!');
+  }
+};
+
+checkBaggage('I have a laptop, some FOOD and a pocket Knife');
+checkBaggage('Socks and camera');
+checkBaggage('Got some snacks and a gun for protection');
+
+*/
+
 /* Working with strings - part 1
 
 const airline = 'TAP Air Portugal';
