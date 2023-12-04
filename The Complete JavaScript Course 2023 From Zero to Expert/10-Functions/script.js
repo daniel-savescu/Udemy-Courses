@@ -87,3 +87,23 @@ document.body.addEventListener('click', sayHello);
 ['Daniel', 'John', 'Sandra'].forEach(sayHello);
 
 */
+
+/*Functions returning functions
+
+const greet = function (greeting) {
+  return function (name) {
+    console.log(`${greeting} ${name}`);
+  };
+};
+
+const greeaterHey = greet('Hey');
+greeaterHey('Daniel');
+greeaterHey('Mark');
+
+greet('Hello')('Daniel');
+
+//Challenge
+const greetArr = greeting => name => console.log(`${greeting} ${name}`);
+greetArr('Hi')('Daniel');
+
+*/
