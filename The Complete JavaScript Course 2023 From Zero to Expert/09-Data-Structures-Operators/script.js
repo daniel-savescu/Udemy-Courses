@@ -45,6 +45,54 @@ const restaurant = {
   },
 };
 
+/* Working with Strings part 3
+
+console.log('a+very+nice+string'.split('+'));
+console.log('Daniel Savescu'.split(' '));
+const [firstName, lastName] = 'Daniel Savescu'.split(' ');
+
+const newName = ['Mr.', firstName, lastName.toUpperCase()].join(' ');
+console.log(newName);
+
+const capitalizeName = function (name) {
+  const names = name.split(' ');
+  const namesUpper = [];
+  for (const word of names) {
+    namesUpper.push(word[0].toUpperCase() + word.slice(1));
+  }
+  console.log(namesUpper.join(' '));
+};
+
+capitalizeName('daniel savescu');
+
+//Padding
+const message = 'Go to gate 23!';
+console.log(message.padStart(20, '+').padEnd(30, '+'));
+console.log('Daniel'.padStart(20, '+').padEnd(30, '+'));
+
+const maskCreditCard = function (number) {
+  const str = number + '';
+  const last = str.slice(-4);
+  return last.padStart(str.length, '*');
+};
+
+console.log(maskCreditCard(43253423425532));
+console.log(maskCreditCard('312414324324325'));
+
+//Repeat
+const message2 = 'Bad weather...All Departues Delayed....';
+console.log(message2.repeat(5));
+
+const planesInLine = function (n) {
+  console.log(`There are 
+  ${n} planes in line ${'plane -> '.repeat(n)}`);
+};
+
+planesInLine(5);
+planesInLine(4);
+
+*/
+
 /* Woking with String part 2
 
 const airline = 'TAP Air Portugal';
