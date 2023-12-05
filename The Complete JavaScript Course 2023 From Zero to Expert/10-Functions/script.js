@@ -108,6 +108,7 @@ greetArr('Hi')('Daniel');
 
 */
 
+/* Call and Apply methods
 const lufthansa = {
   airline: 'Lufthansa',
   iataCode: 'LH',
@@ -145,7 +146,9 @@ const flightData = [538, 'George Cooper'];
 book.apply(eurowings, flightData);
 console.log(eurowings);
 
-//Bind method
+*/
+
+/*Bind method
 
 const bookEW = book.bind(eurowings);
 const bookLH = book.bind(lufthansa);
@@ -182,3 +185,18 @@ const addTaxRate = function (rate) {
 
 const addVAT2 = addTaxRate(0.23);
 console.log(addVAT2(100));
+*/
+
+/*Immediatly invoked function expression(IIFE)
+const runOnce = function () {
+  console.log('This will never run again!');
+};
+runOnce();
+
+
+(function () {
+  console.log('This will never run again!');
+})();
+
+(() => console.log('This will never run again!'))();
+*/
